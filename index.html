@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContadorJS</title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <!--Wallpaper, que será configurado-->
+    <img src="src/images/bg.jpg" alt="" class="wallpaper-img">
+    <!--Div que contém todos os elementos-->
+    <div id="container">
+        <!--Div box, que vai ser estilizada como caixa-->
+        <div id="box">
+            <!--Div content, que vai conter todo o conteúdo-->
+            <div class="content">
+                <!--Header do Formulário-->
+                <header>
+                    <h1 class="title-site">
+                        Contador JavaScript
+                    </h1>
+                </header>
+                <!--Section com formulário-->
+                <section id="formulario">
+
+                    <p class="values">
+                        <span>
+                            Início
+                            <input type="number" name="txtini" id="txtini" min="0" class="value-input">
+                        </span>
+                    </p>
+
+                    <p class="values">
+                        <span>
+                            Fim
+                            <input type="number" name="txtfim" id="txtfim" min="0" class="value-input">
+                        </span>
+                    </p>
+
+                    <p class="values">
+                        <span>
+                            Passo
+                            <input type="number" name="txtfim" id="txtfim" min="0" class="value-input">
+                        </span>
+                    </p>
+
+                    <p>
+                        <input type="button" value="Contar" onclick="contar()" class="button-cont">
+                    </p>
+
+                </section>
+            </div>
+        </div>
+    </div>
+    <!--Importando script-->
+    <script src="src/js/script.js"></script>
+</body>
+</html>
