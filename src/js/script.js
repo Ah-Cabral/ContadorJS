@@ -8,12 +8,12 @@ function contar(){
     //Iniciando While
     while (1){
       answer.innerText += `${inicio} -->`
-      if (inicio >= fim)
+      inicio += passo;
+      if (inicio > fim)
       {
         answer.innerText += `Fim`
         break;
       }
-      inicio += passo;
     }
 
 }
