@@ -1,4 +1,4 @@
-# CountadorJS
+# ContadorJS
 ![GitHub repo size](https://img.shields.io/github/repo-size/Ah-Cabral/ContadorJS?style=plastic)
 ![GitHub language count](https://img.shields.io/github/languages/count/Ah-Cabral/ContadorJS?style=plastic)
 ![GitHub top language](https://img.shields.io/github/languages/top/Ah-Cabral/ContadorJS?style=plastic)
