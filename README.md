@@ -8,7 +8,7 @@
 ### Sobre ℹ️
 Esse projeto foi criado baseado no curso de JavaScript que estou fazendo do Gustavo Guanabara.
 
-###### ･Tecnologias utilizadas:
+#### ･Tecnologias utilizadas:
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
